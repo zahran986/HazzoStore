@@ -1,0 +1,390 @@
+
+* body {
+	margin: 0;
+    padding: auto;
+	font-family: 'Poppins', sans-serif;                                            
+	background-color: #333;
+}
+
+.navbar{
+	background: #333;
+	margin: 0;
+	padding: 10px 0px;
+	
+}
+ 
+.logo {
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	text-align: left;
+}
+ 
+.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+ 
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+ 
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a{
+	padding:6px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+.hero {
+    
+    position: relative;
+    color: #fff;
+    text-align: left;
+    
+}
+
+.container1 img {
+	display: flexbox;
+    height: 95%;
+    width: 100%;
+}
+
+.slide1 {
+    position: absolute; /* Memposisikan tombol secara absolut di dalam container */
+  top: 75%; /* Memposisikan tombol di tengah secara vertikal */
+  left: 20%; /* Memposisikan tombol di tengah secara horizontal */
+  transform: translate(-50%, -50%) /* Menggeser tombol ke kiri dan atas sebesar 50% dari ukurannya sendiri agar benar-benar berada di tengah */
+   /* Warna latar tombol */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.slide1:hover {
+
+	transform: scale(1.05);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+	background-color: #050505;
+	color: white;
+	
+}
+
+.products {
+    padding: 55px 0;
+    background-color: #333;
+    height: 60%;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+	font-size: 30px;
+}
+
+.products p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.p-putih {
+    color: white;
+	font-size: 15px;
+}
+
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #c1ff72;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 15px 0;
+}
+
+.btn {
+    
+    background-color: #c1ff72;
+    color: black;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+	text-decoration: none;
+	margin-top: 50px;
+   
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.container {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #050505;
+  }
+
+  .value h1 {
+	text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+	margin-top: 100px;
+	font-size: 40px;
+}
+  
+  
+  .column {
+	width: 370px;
+	height: 430px;
+	padding: 6px;
+	border: 3px solid #ccc;
+	text-align: center;
+	background-color: #c1ff72;
+	margin-top: 100px;
+	border-radius: 20px;
+  }
+
+  .column h2 {
+
+	color: black;
+	margin-top: 20px;
+  }
+
+  .column img {
+
+	width: 90px;
+	height: 90px;
+	margin-top: 20px
+  }
+
+  .main 
+	max-height: 550px;;
+	background-color: #292c2f;
+	color: white;
+	font-size: 38pt;
+	text-align: center;
+	line-height: 550px;
+}
+footer{
+	position: fixed;
+	bottom: 20px;
+    margin-top: 5px;
+}
+.footer-distributed{
+	background-color: #333;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
